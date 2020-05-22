@@ -61,7 +61,7 @@ public class Demo {
 		Thread.sleep(4000);
 		driver.findElement(By.xpath("//div[@name='category']")).click();
 		driver.findElement(By.xpath("//div[@name='category']/div[2]/div[3]")).click();
-		//driver.findElement(By.linkText("Customer")).click();
+		driver.findElement(By.linkText("Customer")).click();
 		//List<WebElement> categoryList=driver.findElements(By.xpath("//div[@name='category']/div[2]"));
 		//System.out.println("category list: " +categoryList.size());
 		
