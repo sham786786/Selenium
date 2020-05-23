@@ -18,6 +18,10 @@ public class AlertPopupHandle {
 		driver.findElement(By.id("Register")).click();
 		System.out.println("user B code added 1");
 		System.out.println("user B code added 2");
+		System.out.println("developB code added 1");
+		System.out.println("developB code added 2");
+		System.out.println("developB code added 3");
+		System.out.println("developB code added 4");
 		Thread.sleep(2000);
 		Alert alert=driver.switchTo().alert();
 		System.out.println(alert.getText());
