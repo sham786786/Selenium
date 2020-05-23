@@ -16,6 +16,8 @@ public class AlertPopupHandle {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		driver.findElement(By.id("Register")).click();
+		System.out.println("user B code added 1");
+		System.out.println("user B code added 2");
 		Thread.sleep(2000);
 		Alert alert=driver.switchTo().alert();
 		System.out.println(alert.getText());
@@ -27,5 +29,6 @@ public class AlertPopupHandle {
 		alert.accept();
 		//alert.dismiss();
 	}
+	
 
 }
