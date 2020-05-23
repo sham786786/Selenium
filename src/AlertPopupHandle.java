@@ -22,6 +22,8 @@ public class AlertPopupHandle {
 		System.out.println("developB code added 2");
 		System.out.println("developB code added 3");
 		System.out.println("developB code added 4");
+		System.out.println("GitSeleniumUserA code added 3");
+		System.out.println("GitSeleniumUserA code added 4");
 		Thread.sleep(2000);
 		Alert alert=driver.switchTo().alert();
 		System.out.println(alert.getText());
